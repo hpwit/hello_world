@@ -118,7 +118,7 @@ while(1)
     //FastLED.show();
     long   lasthandle2=__clock_cycles();
     printf("FPS fastled: %f \n", (float) 240000000L/(lasthandle2 - lastHandle));
-    vTaskDelay(30+3/portTICK_PERIOD_MS);
+    vTaskDelay(30/portTICK_PERIOD_MS);
     
 }
 
